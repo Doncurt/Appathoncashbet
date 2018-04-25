@@ -1,0 +1,34 @@
+intents:
+  #the point of these intents is to bring up another site like or open a modle to cashbets own sites
+  #the exception are things like greet or goodbye
+  #------------------------------------#
+
+  - greet
+  # gives an appropriate greeting
+
+  
+  - goodbye
+  # ends the chat after program gives a goodbye
+
+
+  - register
+  # this should open a modle to register or direct to their landing page
+
+  - login
+  # this should direct to thier login or open a modle
+
+  - forgot_password
+  #
+
+  - verify_account
+  # should direct to : https://ico.cashbet.com/users/password/new
+  # this is to reset the password
+
+
+  - google_play
+  # this should either have a link or a button to press or both
+
+
+  - purchase_coins
+  - KYC
+  - ico_progress_login
