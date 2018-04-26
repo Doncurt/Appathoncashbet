@@ -196,6 +196,119 @@ intents:
   - contact_us
 
 actions:
+  - utter_greet
+
+  - utter_goodbye
+
+  - utter_what_will_i_own
+
+  - utter_legal_struct_token_own
+
+  - utter_affect_coin
+
+  - utter_how_buy_coins
+
+  - utter_what_will_i_earn
+
+  - utter_github_smart_paper
+
+  - utter_supply_circulation
+
+  - utter_soft_cap
+
+  - utter_hard_cap
+
+  - utter_distribution_plan
+
+  - utter_fundraising_goal
+
+  - utter_minimum_entry_purch
+
+  - utter_bounty_program_rewards
+
+  - utter_currency_keep_funds
+
+  - utter_banned_restricted
+
+  - utter_processing_time
+
+  - utter_which_currencies
+
+  - utter_coin_transfer
+
+  - utter_multiple_wallets
+
+  - utter_wallet_address
+
+  - utter_money_less_minumum
+
+  - utter_refund_policy
+
+  - utter_escrow
+
+  - utter_KYC
+
+  - utter_checkSummed
+
+  - utter_dashboard_disappeared
+
+  - utter_transfer_time
+
+  - utter_when_receive_tokens
+
+  - utter_where_how_to_store
+
+  - utter_hardware_wallet
+
+  - utter_coin_from_account
+
+  - utter_transfer_security
+
+  - utter_ERC20_standard
+
+  - utter_can_transfer
+
+  - utter_who_are_you
+
+  - utter_arsenal_football_club
+
+  - utter_founded_lauched
+
+  - utter_existing_product
+  
+  - utter_key_product
+
+  - utter_business_model_monetize
+
+  - utter_revenue_profit
+
+  - utter_team
+
+  - utter_why_do_ICO
+
+  - utter_apps_sites
+
+  - utter_videos
+
+  - utter_media
+
+  - utter_where_are_you
+  - utter_whitelist
+
+  - utter_contact_us
+
+  - utter_ico_progress_login
+
+  - utter_google_play
+
+  - utter_login
+
+  - utter_register
+
+  - utter_forgot_password
+
+  - utter_verify_account
+
 
 templates:
   utter_greet:
@@ -416,5 +529,51 @@ templates:
 
   utter_where_are_you:
   - text: "CashBet is based in Alderney and its parent company, Mobile Gaming Technologies, Inc., is based in Oakland, California."
-  
+
+  utter_whitelist:
+  - text: "View the whitelist here"
+    buttons:
+    - title: "Whitelist"
+      payload: "https://medium.com/@CashBetCoin/cashbet-coin-token-sale-whitelist-process-fc732bc1f8d6"
+
   utter_contact_us:
+  - text: "We can be reached at info@cashbet.com"
+    buttons:
+    - text: "Email Us"
+      payload: "info@cashbet.com"
+
+  utter_ico_progress_login:
+  - text: "You can view our progress by logging into your account at https://ico.cashbet.com and checking the Dashboard."
+    buttons:
+    - text: "Login Here"
+      payload: "https://ico.cashbet.com"
+
+  utter_google_play:
+  - text: "The https://ico.cashbet.com site allows for 2 factor authentication. You will need to download this plugin for it to work https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=en."
+    buttons:
+    - text: "Go to playstore"
+      payload: "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=en."
+
+  utter_login:
+  - text: "You can login here:"
+    buttons:
+    - text: "Login"
+      payload: "https://ico.cashbet.com"
+
+  utter_register:
+  - text: "You can register for an account here:"
+    buttons:
+    - text: "Register"
+      payload: "https://ico.cashbet.com/users/sign_up"
+
+  utter_forgot_password:
+  - text: "You can reset your password here:"
+    buttons:
+    - text: "Reset Password"
+      payload: "https://ico.cashbet.com/users/password/new"
+
+  utter_verify_account:
+  - text: "Please click here to resend the verification:"
+    buttons:
+    - text: "Verify account"
+      payload: "https://ico.cashbet.com/users/password/new"

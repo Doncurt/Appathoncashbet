@@ -50,7 +50,7 @@
 - google play
 - android issues
 
-## intent:buy_coins
+## intent:how_buy_coins
 - buy coins
 - buy Cashbet
 - purchase coins
