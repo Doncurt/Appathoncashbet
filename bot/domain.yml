@@ -192,3 +192,100 @@ intents:
 
   - where_are_you
   # basic location questions
+
+actions:
+
+templates:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_goodbye:
+  - text: "Good bye"
+
+  utter_what_will_i_own:
+  - text: "You will own CashBet Coin. CashBet Coin may be used in the following ways:
+
+       White label platform partners will be encouraged, in the form rate reductions, to use CBC to pay licensing and maintenance fees to CashBet.
+
+       CBC  may be used by other iGaming operators (social or real-money) as a deposit, payment, and withdrawal mechanism. In this way, CBC has a similar (but enhanced) utility to any other payment mechanism.
+
+       Content distribution partners will likewise be incentivized (in the form of lower rates) to use CBC to pay licensing fees to CashBet.  Casinos incorporating games from CryptoRGS will be required to offer deposit and wagering in CBC.
+
+       CBC tokens may be granted to players as a reward for referring friends.
+
+       Players who hold a certain number of eligible CBC tokens will be offered CBC VIP status in exchange for executing a time-locked contract, sequestering the tokens in the players’ wallet so that they may neither be spent nor otherwise traded. This VIP management feature will be licensed to other operators who may accept CBC for purchase or deposit, allowing them to manage their own CBC-based VIP programs.
+
+       Please note: the use and of CashBet Coin on the CashBet platform is subject to the separate terms and conditions, and may vary depending on a person’s place of residence, where they access the platform and/or other factors. A number of jurisdictions do not allow, or restrict, real money gambling / wagering – see our Terms at https://coin.cashbet.com/terms for a full list of our current restricted jurisdictions. CashBet prevents players from accessing its platforms in these restricted jurisdictions by verifying player geolocation, blocking internet protocol (IP) addresses from restricted jurisdictions, and undertaking due diligence (which includes place of residence). Residents and persons in these countries may not gamble on the platform – they may only use CBC to participate in non-gambling activities."
+     buttons:
+      - title: "View Terms and agreements"
+        payload: "https://coin.cashbet.com/terms"
+
+  utter_legal_struct_token_own:
+  - text: "CashBet is issuing CashBet Coin as a utility token and not as a security. By purchasing CashBet Coin, you acknowledge that CashBet Coin confers only the right to access and use the CashBet platform. CashBet Coin ownership does not confer any equity, interest, or related right of any form with respect to CashBet or its affiliates or any related securities. Explicitly excluded are voting rights or rights to dividends or other distributions."
+
+  utter_affect_coin:
+  - text: "CashBet is issuing CashBet Coin tokens as a cryptocurrency to power its B2C and B2B crypto casino offerings. CashBet Coin gaming and ownership will be uniquely useful and rewarding. CashBet will manage its currency with safeguards that deliver concrete advantages to CashBet Coin partners, owners, and players."
+
+  utter_how_buy_coins:
+  - text: "You can purchase CashBet Coin at https://ico.cashbet.com. ETH, ETC, BTC, BTH, LTC, and USD (via bank wire transfer only) are accepted forms of payment. The funds are credited to your personal account in the system. We do not charge any fees on payments. However, third party payment processors may charge fees. When paying in USD, the wire transfer fee and speed depend on your bank. All fees charged by financial institutions in connection with wire transfers are paid by the prospective CBC token holder. When paying in a cryptocurrency, transaction fees are charged by the relevant blockchain infrastructure. You set the transaction fee amount; that fee and network availability determine the transaction speed."
+    buttons:
+     - title: "Buy Coins Here"
+       payload: "https://ico.cashbet.com"
+
+  utter_what_will_i_earn:
+  - text: "CashBet Coin is not designed to offer earnings. CashBet Coin provides concrete value and advantages to owners as well as CashBet casino partners and players."
+
+  utter_github_smart_paper:
+  - text: "https://github.com/mgt-corp/cashbetcoin/"
+    buttons:
+     - title: "View the Smart Paper here"
+       payload: "https://github.com/mgt-corp/cashbetcoin/"
+
+  utter_supply_circulation:
+  - text: "The total supply of CashBet Coin tokens is 430,000,000."
+
+  utter_soft_cap:
+  - text: "We are enforcing a soft cap equivalent to $5 million USD. The soft cap was met during the first pre-sale."
+
+  utter_hard_cap:
+  - text: "Our hard cap is the 142,975,000 tokens being offered to token purchases. Once these tokens are sold out, no additional tokens will be offered."
+
+  utter_distribution_plan:
+  - text: "33.25% (142,975,000 tokens) will be offered to purchasers; 35% will be put into cold storage to bank the casino; 16.75% will be used for team retention, locked up (vested monthly via smart contract) for 2 years; 8% will be used for referrals; and 7% will go to advisors."
+
+  utter_fundraising_goal:
+  - text: "Our goal is to sell out and raise between $30M – $40M, depending on how the offered discounts get applied."
+
+  utter_minimum_entry_purch:
+  - text: "During the first pre-sale, the minimum purchase was the equivalent of $25,000 USD. During the second pre-sale, the minimum purchase is the equivalent of $10,000 USD. During the public sale, the minimum purchase is the equivalent of $100 USD. There is no cap on purchases."
+
+  utter_bounty_program_rewards:
+  - text: "Yes, we provided a bounty program that rewarded you for being a part of our community and performing specific tasks. Read about our program here: https://bitcointalk.org/index.php?topic=3283716.0"
+    buttons:
+     - title: "Bounty Program"
+       payload: "https://bitcointalk.org/index.php?topic=3283716.0"
+
+  utter_currency_keep_funds:
+  - text: "All funds are kept in ETH. CashBet manages its cryptocurrency reserves with the following wallets:
+
+      – A hot wallet that contains the appropriate amount of reserves to cover necessary bets. This is single signature that is controlled by the system.
+      – A warm wallet that is accessible by the system to cover unexpected losses.
+      – A daily “sweep” (depletion from the warm wallet) into cold storage backed by a hardware wallet with multi-sig."
+
+  utter_banned_restricted:
+  - text: "China, Cuba, Iran, North Korea, Syria, Crimea region and the State of New York are restricted from participating in the token sale."
+
+  utter_processing_time:
+  - text: "You can purchase CashBet Coin at https://ico.cashbet.com. ETH, ETC, BTC, BTH, LTC, and USD (via bank wire transfer only) are accepted forms of payment. The funds are credited to your personal account in the system.
+
+  We do not charge any fees on payments. However, third party payment processors may charge fees.
+
+  When paying in USD, the wire transfer fee and speed depend on your bank. All fees charged by financial institutions in connection with wire transfers are paid by the prospective CBC token holder.
+
+  When paying in a cryptocurrency, transaction fees are charged by the relevant blockchain infrastructure. You set the transaction fee amount; that fee and network availability determine the transaction speed."
+
+  utter_which_currencies:
+  - text: "You can pay in ETH, ETC, BTC, BTH, LTC, and USD. USD will be only be accepted via bank wire transfer."
+
+  utter_coin_transfer:
+  - text: "Yes, it is a good idea to transfer enough crypto in for your purchase. You do not want to wait for the transfer then not have enough to purchase the amount you want."
