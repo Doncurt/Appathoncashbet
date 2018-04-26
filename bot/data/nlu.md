@@ -244,8 +244,6 @@
 ## intent:who_are_you
 - who are you
 - what do you do
-- what else do you do
-- other than CashBet coin
 
 ## intent:arsenal_football_club
 - arsenal football club
@@ -259,34 +257,68 @@
 - who started you
 
 ## intent:existing_product
-# asks what is our existing product or what else do we do, or what do we do as a company
+- what else do you do
+- what is your existing product
+- other than CashBet coin
 
 ## intent:key_product
-# questions about our key product offering or our services
+- what is your key product offering
+- key product
+- key product offering
 
 ## intent:business_model_monetize
-# someone asking about our business model or how do we monetize.
+- monetize
+- business model
+
 
 ## intent:revenue_profit
-# question about stock, public trading, or NDA, or profits revenue
+- make money
+- profit
+- revenue
+- public trading
+- privately owned
 
 ## intent:team
-# if asking how many people are on the team
+- who works there
+- what is your team
+- team
+- people
+- how many people work there
 
 ## intent:why_do_ICO
-# if a customers asks why we did an ico.
+- why did you do an ico
+- why ICO
+- why did you decide to do an ico
 
 ## intent:sports_betting
-# if a customer asks if we do sports betting.
+- do you do sports betting
+- bet on sports
+- sports betting
 
 ## intent:apps_sites
-# if someone asks about cashbet powered apps or sites.
+- what sites are you affiliated with
+- cashbet-powered
+- powered by cashbet
+- gaming sites
 
 ## intent:videos
-# if someone asks for a video about our product
+- do you have any videos
+- videos
+- show me a video
 
 ## intent:media
-# if someone ask for news, press, press releases, recent news, writings
+- news
+- press
+- press releases
+- blog
+- in the news
+- where can i learn more
+- writings
 
 ## intent:where_are_you
-# basic location questions
+- where are you
+- where are you located
+- where are your offices
+- located
+- where are you based
+- are you in america
