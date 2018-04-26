@@ -283,9 +283,134 @@ templates:
   When paying in USD, the wire transfer fee and speed depend on your bank. All fees charged by financial institutions in connection with wire transfers are paid by the prospective CBC token holder.
 
   When paying in a cryptocurrency, transaction fees are charged by the relevant blockchain infrastructure. You set the transaction fee amount; that fee and network availability determine the transaction speed."
+    buttons:
+    - title: "Buy Cashbet Coin or check balance"
+      payload: "https://ico.cashbet.com"
+
 
   utter_which_currencies:
   - text: "You can pay in ETH, ETC, BTC, BTH, LTC, and USD. USD will be only be accepted via bank wire transfer."
 
   utter_coin_transfer:
   - text: "Yes, it is a good idea to transfer enough crypto in for your purchase. You do not want to wait for the transfer then not have enough to purchase the amount you want."
+
+  utter_multiple_wallets:
+  - text: "Yes, you can transfer funds into your account from from multiple wallets. The only reason we ask for the ERC-20 wallet is to have a place to send CashBet Coin when the ICO concludes."
+
+  utter_wallet_address:
+  - text: "The only reason we ask for the ERC-20 wallet is to have a place to send CashBet Coin when the ICO concludes."
+
+  utter_money_less_minumum:
+  - text: "Yes, your funds will be held for you in your account. When the public sale starts you will have money all ready for your purchase of CashBet Coin. Please subscribe with your email on https://coin.cashbet.com so we can inform you of the ICO stages."
+    buttons:
+    - title: "Subcribe here"
+      payload: "https://coin.cashbet.com"
+
+  utter_refund_policy:
+  - text: "All confirmed purchases of CashBet Coin are final and non-refundable. By purchasing CashBet Coin, you acknowledge that neither CashBet nor any of its affiliates are required to provide a refund for any reason and that you will not receive money, cryptocurrency, or other consideration for any CashBet Coin that remains unused.
+
+  In the event that you fail to meet of any of eligibility criteria for participating in the CashBet Coin sale and your purchase has not been confirmed, we retain the right, in our sole discretion, to decline your request for a refund. Should we determine, in our sole discretion, to provide you with a refund because you fail to meet of any of eligibility criteria for participating in the CashBet Coin sale, we shall not be liable for any conversion, exchange, or other rate changes that may occur prior to processing the refund. Digital currencies, tokens, and digital assets are, by their nature, generally irreversible, and their exchange rates are highly volatile and transitory."
+
+  utter_escrow:
+  - text: "No, we have opted not to use an escrow service."
+
+  utter_KYC:
+  - text: "Protecting our investors is critical, and we take it very seriously. There will be a KYC process for this reason, and to ensure Anti-Money Laundering (AML) compliance. Here is what you can expect during the sale process: https://medium.com/@CashBetCoin/cashbet-coin-token-sale-whitelist-process-fc732bc1f8d6"
+    buttons:
+    - title: "Whitelist and sale process"
+      payload: "https://medium.com/@CashBetCoin/cashbet-coin-token-sale-whitelist-process-fc732bc1f8d6"
+
+  utter_checkSummed:
+  - text: "Please check your wallet address entry, which is case sensitive. See here for more information: https://myetherwallet.github.io/knowledge-base/addresses/not-checksummed-shows-when-i-enter-an-address.html"
+    buttons:
+    - title: "Check wallet address"
+      payload: "https://myetherwallet.github.io/knowledge-base/addresses/not-checksummed-shows-when-i-enter-an-address.html"
+  utter_dashboard_disappeared:
+  - text: "This is for protection. If you want to see your wallet address you will need to click the Profile link at the top of the page. It will open you profile where you can view and update your wallet address."
+
+  utter_transfer_time:
+  - text: "Crypto currency transfers can take a while depending on the blockchain network. We require upwards of 30 confirmations before we list your transaction in your account. You may need to refresh your browser to see the funds in your account. If you believe you have an issue with the transfer you can either talk directly with a CashBet admin or send an email to ico-support@cashbet.com. We will be able to track your transfer with your email. You may also track your BTC with https://blockchain.info/, ETC https://etherscan.io/."
+    buttons:
+    - title: "Track BTC"
+      payload: "https://blockchain.info/"
+    - title: "Track ETC"
+      payload: "https://etherscan.io/"
+    - title: "Email Us"
+      payload: "ico-support@cashbet.com"
+
+  utter_when_receive_tokens:
+    - text: "CashBet will be distributing CashBet Coin within two weeks after completion of the ICO."
+
+  utter_where_how_to_store:
+  - text: "You can store CashBet Coin in your CashBet casino account or in any Ethereum wallet. Top recommendations include:
+      - MyEtherWallet (https://www.myetherwallet.com/)
+      - MetaMask (Firefox/Chrome browser add-on)
+      - Mist (Desktop) Parity (Desktop)
+      - Ledger (Hardware wallet)
+      - imToken (iPhone/Android)
+      - Eidoo (iPhone/Android)"
+
+  utter_hardware_wallet:
+  - text: "You can use any ERC-20 compatible wallet. However that being said we encourage everyone to research their hardware wallets capability."
+
+  utter_coin_from_account:
+  - text: "Yes, you can deposit your CashBet Coin in an Ethereum wallet, such as Myetherwallet."
+
+  utter_transfer_security:
+  - text: "We take CashBet Coin security very seriously. Payments in cryptocurrencies are secured by blockchain technology. Payments in fiat currency are accepted only via a wire transfer, which relies on international banking best practices."
+
+  utter_ERC20_standard:
+  - text: "Yes, our product is currently ERC20 compliant."
+
+  utter_can_transfer:
+  - text: "Yes, you can. You can transfer from any supported blockchain wallet"
+
+  utter_who_are_you:
+  - text: "CashBet was founded in 2012 by gaming industry veterans and is the only mobile-first platform currently in the market for real-money, social, lottery, and skill-based gaming. The team has previous experience successfully building and selling online gaming platforms for CyberArts (Ultimate Gaming) and US Digital Gaming. The CashBet platform allows operators to run an iGaming business end-to-end, enabling robust game management, marketing, customer relationship management, support, and data analytics. CashBet is licensed by the Alderney Gambling Control Commission and the UK Gambling Commission."
+
+  utter_arsenal_football_club:
+  - text: "Yes, we’re excited and proud to say we are the exclusive and official cryptocurrency and blockchain partner for Arsenal Football Club. Arsenal is a forward thinking, innovative sports club, and this deal serves as a signal of their thought leadership in embracing cryptocurrency and blockchain as technologies that are here to stay. Please see Arsenal’s official announcement of the partnership here on their website: https://www.arsenal.com/news/club-welcomes-cashbet-coin-new-partner. We’re also listed on their Partners page here: https://www.arsenal.com/the-club/sponsors-partners."
+
+  utter_founded_lauched:
+  - text: "CashBet was founded in 2012 by gaming industry veterans and is the only mobile-first platform currently in the market for real-money, social, lottery, and skill-based gaming. The team has previous experience successfully building and selling online gaming platforms for CyberArts (Ultimate Gaming) and US Digital Gaming. The CashBet platform allows operators to run an iGaming business end-to-end, enabling robust game management, marketing, customer relationship management, support, and data analytics. CashBet is licensed by the Alderney Gambling Control Commission and the UK Gambling Commission."
+
+  utter_existing_product:
+  - text: "Launched in 2012, CashBet is a complete, mobile-first iGaming platform with an established, profitable presence in regulated gaming markets. We offer a complete software solution that enables operators to run a legal and profitable iGaming business end-to-end. There are tens of thousands of registered players, millions of Pounds Sterling wagered, gaming licenses in multiple jurisdictions, and customers from all facets of iGaming (real-money, social, and skill-based) from around the world using CashBet. You can learn more about our platform here: https://www.cashbet.com/platform/"
+
+  utter_key_product:
+  - text: "A software solution that allows operators and game developers to legally offer online real-money gaming without the need for licensing. CashBet platform operators use player segmentation, bonusing, campaign management, and other patent-pending CashBet features to enable a profitable iGaming operation from day one."
+
+  utter_business_model_monetize:
+  - text: "We have three primary revenue streams: (1) licensing our iGaming platform to digital operators, (2) revenue share on royalties from digital operators who license our platform, and (3) professional service fees for custom development."
+
+  utter_revenue_profit:
+  - text: "CashBet is a privately held company. We do not publicly disclose financials. That said, if you would like to sign and NDA, please email"
+    buttons:
+    - title: "Email Us"
+      payload: "ico-support@cashbet.com"
+
+  utter_team:
+  - text: "We have 30 employees across engineering and development, business development, marketing and customer support. Our leadership includes veterans of the regulated, online gambling industry with many years of successful operation."
+
+  utter_why_do_ICO:
+  - text: "Mobile gaming and cryptocurrency are two of the fastest growing, demand-driven markets in the world today. CashBet is merging these technologies and expanding our reach to service crypto casinos with a player-centric solution by offering CashBet Coin, which will improve trust, speed and cost. By leveraging blockchain technology, we increase transaction speed and scalability, provide greater transparency to instill player trust, and reduce transaction costs. By issuing our own CashBet Coin token, we aim to open up worldwide access to premium iGaming entertainment that’s provably fair, fast and flexible.
+
+  CashBet is the only complete, crypto-ready, mobile-first iGaming platform with an established, profitable presence in regulated gaming markets.
+
+  We invite you to read our whitepaper to learn more: https://coin.cashbet.com/whitepaper"
+
+  utter_apps_sites:
+  - text: "CashBet powers over 450 games. To see some examples of feature apps & websites, visit: https://www.cashbet.com/featured_apps We’ll be adding more featured games here soon!"
+    buttons:
+    - title: "View apps"
+      payload: "https://www.cashbet.com/featured_apps"
+
+  utter_videos:
+  - text: "Here's a video explaining out product"
+  - text: "https://www.youtube.com/embed/KZfw2G7u1aY?feature=oembed"
+
+  utter_media:
+  - text: "Yes, please visit https://coin.cashbet.com/media-coverage/"
+
+  utter_where_are_you:
+  - text: "CashBet is based in Alderney and its parent company, Mobile Gaming Technologies, Inc., is based in Oakland, California."
