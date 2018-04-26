@@ -193,6 +193,8 @@ intents:
   - where_are_you
   # basic location questions
 
+  - contact_us
+
 actions:
 
 templates:
@@ -416,7 +418,49 @@ templates:
   - text: "CashBet is based in Alderney and its parent company, Mobile Gaming Technologies, Inc., is based in Oakland, California."
 
   utter_whitelist:
-  - text: ""
-    button:
-    - title: ""
+  - text: "View the whitelist here"
+    buttons:
+    - title: "Whitelist"
       payload: "https://medium.com/@CashBetCoin/cashbet-coin-token-sale-whitelist-process-fc732bc1f8d6"
+
+  utter_contact_us:
+  - text: "We can be reached at info@cashbet.com"
+    buttons:
+    - text: "Email Us"
+      payload: "info@cashbet.com"
+
+  utter_ico_progress_login:
+  - text: "You can view our progress by logging into your account at https://ico.cashbet.com and checking the Dashboard."
+    buttons:
+    - text: "Login Here"
+      payload: "https://ico.cashbet.com"
+
+  utter_google_play:
+  - text: "The https://ico.cashbet.com site allows for 2 factor authentication. You will need to download this plugin for it to work https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=en."
+    buttons:
+    - text: "Go to playstore"
+      payload: "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=en."
+
+  utter_login:
+  - text: "You can login here:"
+    buttons:
+    - text: "Login"
+      payload: "https://ico.cashbet.com"
+
+  utter_register:
+  - text: "You can register for an account here:"
+    buttons:
+    - text: "Register"
+      payload: "https://ico.cashbet.com/users/sign_up"
+
+  utter_forgot_password:
+  - text: "You can reset your password here:"
+    buttons:
+    - text: "Reset Password"
+      payload: "https://ico.cashbet.com/users/password/new"
+
+  utter_verify_account:
+  - text: "Please click here to resend the verification:"
+    buttons:
+    - text: "Verify account"
+      payload: "https://ico.cashbet.com/users/password/new"

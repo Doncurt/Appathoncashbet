@@ -50,7 +50,7 @@
 - google play
 - android issues
 
-## intent:buy_coins
+## intent:how_buy_coins
 - buy coins
 - buy Cashbet
 - purchase coins
@@ -329,3 +329,10 @@
 - located
 - where are you based
 - are you in america
+
+## intent:contact_us
+- Email
+- phone
+- contact you
+- call you
+- phone number
