@@ -34,48 +34,59 @@
 ## intent:login
 - login
 - signin
+- log in
+- sign in
+- dashboard
 
 ## intent:forgot_password
 - forgot password
+- reset password
 
 ## intent:verify_account
 - verify account
+- authenticate account
 
 ## intent:google_play
 - google play
+- android issues
 
 ## intent:buy_coins
 - buy coins
 - buy Cashbet
+- purchase coins
 
 ## intent:whitelist
 - whitelist
 
 ## intent:ico_progress_login
 - ico progress
+- initial coin offering
 
 ## intent:proof_type
 - proof type
+- mining
 
 ## intent:legal_struct_token_own
 - legal structure
 - token ownership
+- do i own my coin
+- legal
 
 ## intent:how_is_BlcChn_used
 - blockchain
+- gaming and cryptocurrency
 
 ## intent:what_will_i_own
 - what will i own
 - how can i use
 - how can i spend
 
-## intent:how_can_i_spend
--
-
 ## intent:affect_coin
-- the main factors
-- affect
-- the value of CashBet Coin
+- appreciate
+- depreciate
+- affect value
+- value of CashBet Coin
+- drop price
 
 ## intent:what_will_i_earn
 - how much will i earn
@@ -92,15 +103,22 @@
 ## intent:supply_circulation
 - the total supply
 - supply circulation
+- how many coins are there
+- how many coins do you have
 
 ## intent:soft_cap
 - soft cap
+- uncapped
 
 ## intent:hard_cap
 - hard cap
+- capped
 
 ## intent:distribution_plan
 - distribution plan
+- cold storage
+- retention
+- referrals
 
 ## intent:fundraising_goal
 - fundraising goal
@@ -108,6 +126,9 @@
 
 ## intent:minimum_entry_purch
 - entry limit
+- minimum buy
+- pre-sale
+- smallest amount
 
 ## intent:bounty_program_rewards
 - bounty program
@@ -158,13 +179,19 @@
 
 ## intent:refund_policy
 - refund policy
+- refund
+- money back
 
 ## intent:escrow
 - escrow
+- guarantor
 
 ## intent:KYC
 - KYC
 - Know Your Customer
+- AML
+- secure
+- Money Laundering
 
 ## intent:checkSummed
 - checksummed
@@ -177,6 +204,8 @@
 - long time
 - take long
 - long
+- transfer time
+- how long do transfers take
 
 ## intent:when_receive_tokens
 - receive tokens
