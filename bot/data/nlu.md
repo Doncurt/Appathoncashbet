@@ -34,48 +34,59 @@
 ## intent:login
 - login
 - signin
+- log in
+- sign in
+- dashboard
 
 ## intent:forgot_password
 - forgot password
+- reset password
 
 ## intent:verify_account
 - verify account
+- authenticate account
 
 ## intent:google_play
 - google play
+- android issues
 
 ## intent:buy_coins
 - buy coins
 - buy Cashbet
+- purchase coins
 
 ## intent:whitelist
 - whitelist
 
 ## intent:ico_progress_login
 - ico progress
+- initial coin offering
 
 ## intent:proof_type
 - proof type
+- mining
 
 ## intent:legal_struct_token_own
 - legal structure
 - token ownership
+- do i own my coin
+- legal
 
 ## intent:how_is_BlcChn_used
 - blockchain
+- gaming and cryptocurrency
 
 ## intent:what_will_i_own
 - what will i own
 - how can i use
 - how can i spend
 
-## intent:how_can_i_spend
--
-
 ## intent:affect_coin
-- the main factors
-- affect
-- the value of CashBet Coin
+- appreciate
+- depreciate
+- affect value
+- value of CashBet Coin
+- drop price
 
 ## intent:what_will_i_earn
 - how much will i earn
@@ -92,15 +103,22 @@
 ## intent:supply_circulation
 - the total supply
 - supply circulation
+- how many coins are there
+- how many coins do you have
 
 ## intent:soft_cap
 - soft cap
+- uncapped
 
 ## intent:hard_cap
 - hard cap
+- capped
 
 ## intent:distribution_plan
 - distribution plan
+- cold storage
+- retention
+- referrals
 
 ## intent:fundraising_goal
 - fundraising goal
@@ -108,6 +126,9 @@
 
 ## intent:minimum_entry_purch
 - entry limit
+- minimum buy
+- pre-sale
+- smallest amount
 
 ## intent:bounty_program_rewards
 - bounty program
@@ -158,13 +179,19 @@
 
 ## intent:refund_policy
 - refund policy
+- refund
+- money back
 
 ## intent:escrow
 - escrow
+- guarantor
 
 ## intent:KYC
 - KYC
 - Know Your Customer
+- AML
+- secure
+- Money Laundering
 
 ## intent:checkSummed
 - checksummed
@@ -177,6 +204,8 @@
 - long time
 - take long
 - long
+- transfer time
+- how long do transfers take
 
 ## intent:when_receive_tokens
 - receive tokens
@@ -189,57 +218,107 @@
 
 ## intent:hardware_wallet
 - hardware wallet
+- physical wallet
+- long-term storage
 
 ## intent:coin_from_account
-# askng if they can transfer from the coin to the cashbet account
+- buy coin with Cashbet account
+- transfer from Cashbet
+- transfer from account
 
 ## intent:transfer_security
-# for customers asking how secure the coin  or transfers are
+- secure
+- how is Cashbet coin secured
+- what is your security
+- how secure
+- how safe is
 
 ## intent:ERC20_standard
-# asks if the code is up to the ERC20 standard.
+- is cashbet ERC20 compliant
+
 
 ## intent:can_transfer
-# for a customer asking if they can transfer.
+- can I transfer to a third party ETH wallet
+- can i transfer CashBet coin
 
 ## intent:who_are_you
-# if someone asks about what the company does or who we are
+- who are you
+- what do you do
 
 ## intent:arsenal_football_club
-# questions about the partnership with the arsenal football club.
+- arsenal football club
+- arsenal
+- partnership with arsenal
+- deal with arsenal
 
 ## intent:founded_lauched
-# when a customer asks about when we were founded or launched
+- when did you start
+- when were you founded
+- who started you
 
 ## intent:existing_product
-# asks what is our existing product or what else do we do, or what do we do as a company
+- what else do you do
+- what is your existing product
+- other than CashBet coin
 
 ## intent:key_product
-# questions about our key product offering or our services
+- what is your key product offering
+- key product
+- key product offering
 
 ## intent:business_model_monetize
-# someone asking about our business model or how do we monetize.
+- monetize
+- business model
+
 
 ## intent:revenue_profit
-# question about stock, public trading, or NDA, or profits revenue
+- make money
+- profit
+- revenue
+- public trading
+- privately owned
 
 ## intent:team
-# if asking how many people are on the team
+- who works there
+- what is your team
+- team
+- people
+- how many people work there
 
 ## intent:why_do_ICO
-# if a customers asks why we did an ico.
+- why did you do an ico
+- why ICO
+- why did you decide to do an ico
 
 ## intent:sports_betting
-# if a customer asks if we do sports betting.
+- do you do sports betting
+- bet on sports
+- sports betting
 
 ## intent:apps_sites
-# if someone asks about cashbet powered apps or sites.
+- what sites are you affiliated with
+- cashbet-powered
+- powered by cashbet
+- gaming sites
 
 ## intent:videos
-# if someone asks for a video about our product
+- do you have any videos
+- videos
+- show me a video
 
 ## intent:media
-# if someone ask for news, press, press releases, recent news, writings
+- news
+- press
+- press releases
+- blog
+- in the news
+- where can i learn more
+- writings
 
 ## intent:where_are_you
-# basic location questions
+- where are you
+- where are you located
+- where are your offices
+- located
+- where are you based
+- are you in america
