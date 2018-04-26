@@ -125,4 +125,70 @@ intents:
   # if a customer is receiveing a non checksum question
 
   - dashboard_disappeared
-  # customer has questions about why not seeing ERC-20 Wallet Address
+  # customer has questions about why not seeing ERC-20 Wallet Address or if they want to see it
+
+  - transfer_time
+  # if a customer says that their tansfer is taking to long or is slow
+
+  - when_receive_tokens
+  # if a custimer asks when the will receive their tokens, answer is after ico
+
+  - where_how_to_store
+  # if a customer asks where and how they should store the coins
+
+  - hardware_wallet
+  # for people asking about a hardware or physical wallet
+
+  - coin_from_account
+  # askng if they can transfer from the coin to the cashbet account
+
+  - transfer_security
+  # for customers asking how secure the coin  or transfers are
+
+  - ERC20_standard
+  # asks if the code is up to the ERC20 standard.
+
+  - can_transfer
+  # for a customer asking if they can transfer.
+
+  - who_are_you
+  # if someone asks about what the company does or who we are
+
+  - arsenal_football_club
+  # questions about the partnership with the arsenal football club.
+
+  - founded_lauched
+  # when a customer asks about when we were founded or launched
+
+  - existing_product
+  # asks what is our existing product or what else do we do, or what do we do as a company
+
+  - key_product
+  # questions about our key product offering or our services
+
+  - business_model_monetize
+  # someone asking about our business model or how do we monetize.
+
+  - revenue_profit
+  # question about stock, public trading, or NDA, or profits revenue
+
+  - team
+  # if asking how many people are on the team
+
+  - why_do_ICO
+  # if a customers asks why we did an ico.
+
+  - sports_betting
+  # if a customer asks if we do sports betting.
+
+  - apps_sites
+  # if someone asks about cashbet powered apps or sites.
+
+  - videos
+  # if someone asks for a video about our product
+
+  - media
+  # if someone ask for news, press, press releases, recent news, writings
+
+  - where_are_you
+  # basic location questions
