@@ -218,27 +218,45 @@
 
 ## intent:hardware_wallet
 - hardware wallet
+- physical wallet
+- long-term storage
 
 ## intent:coin_from_account
-# askng if they can transfer from the coin to the cashbet account
+- buy coin with Cashbet account
+- transfer from Cashbet
+- transfer from account
 
 ## intent:transfer_security
-# for customers asking how secure the coin  or transfers are
+- secure
+- how is Cashbet coin secured
+- what is your security
+- how secure
+- how safe is
 
 ## intent:ERC20_standard
-# asks if the code is up to the ERC20 standard.
+- is cashbet ERC20 compliant
+
 
 ## intent:can_transfer
-# for a customer asking if they can transfer.
+- can I transfer to a third party ETH wallet
+- can i transfer CashBet coin
 
 ## intent:who_are_you
-# if someone asks about what the company does or who we are
+- who are you
+- what do you do
+- what else do you do
+- other than CashBet coin
 
 ## intent:arsenal_football_club
-# questions about the partnership with the arsenal football club.
+- arsenal football club
+- arsenal
+- partnership with arsenal
+- deal with arsenal
 
 ## intent:founded_lauched
-# when a customer asks about when we were founded or launched
+- when did you start
+- when were you founded
+- who started you
 
 ## intent:existing_product
 # asks what is our existing product or what else do we do, or what do we do as a company
