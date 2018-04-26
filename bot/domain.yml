@@ -414,3 +414,9 @@ templates:
 
   utter_where_are_you:
   - text: "CashBet is based in Alderney and its parent company, Mobile Gaming Technologies, Inc., is based in Oakland, California."
+
+  utter_whitelist:
+  - text: ""
+    button:
+    - title: ""
+      payload: "https://medium.com/@CashBetCoin/cashbet-coin-token-sale-whitelist-process-fc732bc1f8d6"
