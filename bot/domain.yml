@@ -196,6 +196,119 @@ intents:
   - contact_us
 
 actions:
+  - utter_greet
+
+  - utter_goodbye
+
+  - utter_what_will_i_own
+
+  - utter_legal_struct_token_own
+
+  - utter_affect_coin
+
+  - utter_how_buy_coins
+
+  - utter_what_will_i_earn
+
+  - utter_github_smart_paper
+
+  - utter_supply_circulation
+
+  - utter_soft_cap
+
+  - utter_hard_cap
+
+  - utter_distribution_plan
+
+  - utter_fundraising_goal
+
+  - utter_minimum_entry_purch
+
+  - utter_bounty_program_rewards
+
+  - utter_currency_keep_funds
+
+  - utter_banned_restricted
+
+  - utter_processing_time
+
+  - utter_which_currencies
+
+  - utter_coin_transfer
+
+  - utter_multiple_wallets
+
+  - utter_wallet_address
+
+  - utter_money_less_minumum
+
+  - utter_refund_policy
+
+  - utter_escrow
+
+  - utter_KYC
+
+  - utter_checkSummed
+
+  - utter_dashboard_disappeared
+
+  - utter_transfer_time
+
+  - utter_when_receive_tokens
+
+  - utter_where_how_to_store
+
+  - utter_hardware_wallet
+
+  - utter_coin_from_account
+
+  - utter_transfer_security
+
+  - utter_ERC20_standard
+
+  - utter_can_transfer
+
+  - utter_who_are_you
+
+  - utter_arsenal_football_club
+
+  - utter_founded_lauched
+
+  - utter_existing_product
+  
+  - utter_key_product
+
+  - utter_business_model_monetize
+
+  - utter_revenue_profit
+
+  - utter_team
+
+  - utter_why_do_ICO
+
+  - utter_apps_sites
+
+  - utter_videos
+
+  - utter_media
+
+  - utter_where_are_you
+  - utter_whitelist
+
+  - utter_contact_us
+
+  - utter_ico_progress_login
+
+  - utter_google_play
+
+  - utter_login
+
+  - utter_register
+
+  - utter_forgot_password
+
+  - utter_verify_account
+
 
 templates:
   utter_greet:
