@@ -193,6 +193,8 @@ intents:
   - where_are_you
   # basic location questions
 
+  - contact_us
+
 actions:
 
 templates:
@@ -414,3 +416,5 @@ templates:
 
   utter_where_are_you:
   - text: "CashBet is based in Alderney and its parent company, Mobile Gaming Technologies, Inc., is based in Oakland, California."
+  
+  utter_contact_us:

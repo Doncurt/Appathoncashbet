@@ -329,3 +329,10 @@
 - located
 - where are you based
 - are you in america
+
+## intent:contact_us
+- Email
+- phone
+- contact you
+- call you
+- phone number
