@@ -144,6 +144,13 @@
 ## intent:banned_restricted
 - banned
 - countries
+- China
+- Cuba
+- Iran
+- North Korea
+- Syria
+- Crimea
+- State of New York
 
 ## intent:processing_time
 - buy tokens
