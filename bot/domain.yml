@@ -6,10 +6,105 @@ intents:
   - greet
   # gives an appropriate greeting
 
-
   - goodbye
   # ends the chat after program gives a goodbye
 
+  - affect_coin
+  # when a user asks about how the coins value can fluctuate or loss or gain value
+
+
+  - how_buy_coins
+  # should direct them to https://ico.cashbet.com. or offer a button to click
+
+  - whitelist
+  # should direct the customer to via link: https://medium.com/@CashBetCoin/cashbet-coin-token-sale-whitelist-process-fc732bc1f8d6
+
+  - ico_progress_login
+  # log in to dashboard https://ico.cashbet.com
+
+  - proof_type
+  #this will map to questions about the prooftype
+
+  - legal_struct_token_own
+  # questions about the legal structure of token ownership
+
+  - how_is_BlcChn_used
+  # maps to question of how cypto and gaming are supported
+
+  - what_will_i_own
+  # maps to question answering  this and/ how can i use it
+
+  - how_can_i_spend
+  # maps to question about how cashbetcoin can be spent
+
+  - what_will_i_earn
+  # mapts to question about what they will earn and possible steps
+
+  - github_smart_paper
+  # if customer asks about our guthub
+
+  - supply_circulation
+  # if a customer aska about how many coins we have or the circulation amount
+
+  - soft_cap
+  # if a customer asks about the soft_cap
+
+  - hard_cap
+  # if a customer asks about the hard cap
+
+  - distribution_plan
+  # how we plan to distribute the coin, including cold storage, retention and referrals
+
+  - fundraising_goal
+  # this wil tell about the funding goals or to sell out
+
+  - minimum_entry_purch
+  # questions for the minimim purchase
+
+  - max_entry_purch
+  # questions fro the maximum urchas amount
+
+  - bounty_program_rewards
+  # questions about the bounty program and the rewards
+
+  - currency_keep_funds
+  # aska about what crrency do we keep the funds in
+
+  - how_is_managed
+  # answers how its kept  or managed
+
+  - banned_restricted
+  # banned or restrcted terrories...should be a list of the banend countries
+
+  - processing_time
+  # answers questions about the processing time
+
+  - fees
+  # answers about potential fees
+
+  - which_currencies
+  # questions about which currencries can be used to purcase the coin
+
+  - coin_transfer
+  # question about if the person should add a bit more becuase it fluctuates
+
+  - multiple_wallets
+  # if someone asks about ahveing multiple wallets
+
+  - wallet_address
+  # if someone wask for the wallet wallet_address or about  ERC-20
+
+  - money_less_minumum
+  # when a customer asks if their account is safe even if under the 25K usd minimim
+
+  - refund_policy
+  # when a customer asks about the policy itself or asks for a refund
+
+  - escrow
+  # when a customers asks about out escrow
+
+  - KYC
+  # when a customer asks about our know your customer verifcation process
 
   - register
   # this should open a modle to register or direct to their landing page
@@ -18,23 +113,16 @@ intents:
   # this should direct to thier login or open a modle
 
   - forgot_password
-  #
+  # redirect  toreset the password at https://ico.cashbet.com/users/password/new
 
   - verify_account
   # should direct to : https://ico.cashbet.com/users/password/new
-  # this is to reset the password
-
 
   - google_play
   # this should either have a link or a button to press or both
 
+  - checkSummed
+  # if a customer is receiveing a non checksum question
 
-  - buy_coins
-  # should direct them to https://ico.cashbet.com. or offer a button to click
-
-
-  - whitelist
-  # should direct the customer to via link: https://medium.com/@CashBetCoin/cashbet-coin-token-sale-whitelist-process-fc732bc1f8d6
-
-  - ico_progress_login
-  # log in to dashboard https://ico.cashbet.com 
+  - dashboard_disappeared
+  # customer has questions about why not seeing ERC-20 Wallet Address
