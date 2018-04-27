@@ -1,0 +1,33 @@
+{
+  "name": "messenger-webhook",
+  "version": "1.0.0",
+  "description": "webhook for facebook chatbot application for appathon",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Doncurt/cashbet.git"
+  },
+  "keywords": [
+    "cahbet",
+    "bot",
+    "facbook",
+    "bot"
+  ],
+  "author": "donovan adams",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Doncurt/cashbet/issues"
+  },
+  "homepage": "https://github.com/Doncurt/cashbet#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3",
+    "nodemon": "^1.17.3",
+    "npm": "^6.0.0"
+  }
+}
